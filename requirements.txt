@@ -1,0 +1,39 @@
+# Backend 
+
+mkdir backend
+cd backend
+npm init -y
+npm install bcryptjs jsonwebtoken
+npm install cors
+
+npm install express mongoose cors dotenv
+npm install nodemon --save-dev
+npm install jsonwebtoken bcryptjs
+
+npm install axios
+
+
+# Frontend
+npx create-react-app frontend
+cd frontend
+
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install recharts
+ 
+npm install react-icons
+npm start
+ 
+Ctrl + C
+npx nodemon server.js
+
+
+
+http://localhost:5000/add
+
+http://localhost:5000/api/questions
+
+http://localhost:5000/
+
+ 
